@@ -1,0 +1,18 @@
+{
+    "name": "shakil/salat-notifier",
+    "description": "This Laravel package for managing and notifying Salat times.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Shakil\\SalatNotifier\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shakil\\SalatNotifier\\SalatNotifierServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
